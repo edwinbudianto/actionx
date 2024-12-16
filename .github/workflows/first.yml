@@ -2,7 +2,7 @@ name: My First Workflow
 on: push
 jobs:
   first_job:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
      - name: welcome messages
        run: echo "My first GitHub actions job"
