@@ -45,5 +45,5 @@ jobs:
        
     - name: Deploy
       run: |
-        echo Deploying 
+        echo Deploying apps 
         cat dragon.txt
